@@ -4,6 +4,10 @@ version = "0.1.0"
 description = ""
 authors = ["Patrick Barker <patrickbarkerco@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "MobileAgent" },
+    { include = "groundingdino" },
+]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
